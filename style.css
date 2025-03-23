@@ -7,8 +7,20 @@ body {
   color: #f5f7dc;
 }
 
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: "Montserrat";
+  font-size: 24px;
+  height: 29px;
+  font-weight: 600;
+  width: 299px;
+  padding: 65px 360px;
+}
+
 .apresentacao {
-  margin: 184px 360px;
+  margin: 32px 360px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,18 +54,21 @@ p {
   padding: 12px;
   border: 5px outset #eb5261;
   margin-bottom: 16px;
+  font-weight: 400;
 }
 
 .apresentacao__links {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   font-family: "Montserrat";
   font-size: 24px;
+  align-items: center;
+  gap: 32px;
 }
 
 .apresentacao__links a {
-  background-color: #eb5261;
-  border: 0 solid;
+  border: 2px solid #eb5261;
   color: #f5f7dc;
   cursor: pointer;
   width: 280px;
